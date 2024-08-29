@@ -3,28 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+header{
+    position: absolute;
+    top: -10%;
+}
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0e0e0;
+    background-color: #9c9c9caf;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 nav {
-    background-color: cyan;
+    background-color: #ff5722;
     width: 90%;
     height: 50px;
     margin-top: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    gap: 50px;
     border-radius: 10px;
+    font-size: 25px;
+    gap: 70px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 0%
+}
+nav :hover{
+    background-color: white;
+    border-radius: 2px;
 }
 #pesquisa{
     position: absolute;
     left: 8%;
     border-radius: 10px;
-
+    height: 30px;
+    width: 30%;
+    
 }
