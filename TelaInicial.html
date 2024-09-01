@@ -1,23 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Site de Motos</title>
     <link rel="stylesheet" href="TelaInicial.css">
 </head>
 <body>
-
-    <nav>
-
-        <input id="pesquisa" type="text" placeholder="  Entre com a pesquisa">
-        <a href="">Inicio</a>
-        <a href="">Produtos</a>
-        <a href="">Contato</a>
-        <a href="">Saiba mais</a>
-        <a href="">Carrinho</a> 
-
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo"><img id="LOGODESGRACADA" src="/img/M_(1)-transformed.png" alt=""></a>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#models">Modelos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
     </nav>
+    
+    <div id="marcas">
+
+        <div id="box">
+            <a id="erro"><img src="/img/moto logos/unnamed.png"></a>
+        </div>
+        
+        <div id="box">
+            <a id="erro"><img src="/img/moto logos/png-transparent-honda-logo-touring-motorcycle-honda-gold-wing-moto-angle-text-logo-thumbnail-removebg-preview.png"></a>
+        </div>
+        
+        <div id="box">
+            <a id="erro"><img src="/img/moto logos/png-transparent-yamaha-logo-yamaha-motor-company-yamaha-corporation-logo-motorcycle-yamaha-emblem-company-trademark-thumbnail-removebg-preview.png"></a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="hero" id="home">
+        <div class="hero-content">
+            <h1>Explore o Mundo das Motos</h1>
+            <p>Descubra as melhores motos, dicas e novidades sobre o universo das motocicletas.</p>
+            <button id="exploreButton">Explorar Agora</button>
+            <button id="contactButton">Contato</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
