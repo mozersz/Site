@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Motos</title>
     <link rel="stylesheet" href="TelaInicial.css">
 </head>
+
 <body>
+    <script src="/Telainicial.js"></script>
     <nav class="navbar">
         <div class="container">
             <a href="#" class="logo"><img id="LOGODESGRACADA" src="/img/M_(1)-transformed.png" alt=""></a>
@@ -18,21 +21,28 @@
             </ul>
         </div>
     </nav>
-    
-    <div id="marcas">
 
-        <div id="box">
-            <a id="erro"><img src="/img/moto logos/unnamed.png"></a>
-        </div>
-        
-        <div id="box">
-            <a id="erro"><img src="/img/moto logos/png-transparent-honda-logo-touring-motorcycle-honda-gold-wing-moto-angle-text-logo-thumbnail-removebg-preview.png"></a>
-        </div>
-        
-        <div id="box">
-            <a id="erro"><img src="/img/moto logos/png-transparent-yamaha-logo-yamaha-motor-company-yamaha-corporation-logo-motorcycle-yamaha-emblem-company-trademark-thumbnail-removebg-preview.png"></a>
-        </div>
+    <div class="carrossel">
+        <div class="carrossel-inner">
 
+            <div class="carrossel-item">
+                <a id="erro"><img href=""src="/img/moto logos/unnamed.png"></a>
+            </div>
+
+            <div class="carrossel-item">
+                <a id="erro"><img href=""
+                        src="/img/moto logos/png-transparent-honda-logo-touring-motorcycle-honda-gold-wing-moto-angle-text-logo-thumbnail-removebg-preview.png"></a>
+            </div>
+
+            <div class="carrossel-item">
+                <a id="erro"><img href=""
+                        src="/img/moto logos/png-transparent-yamaha-logo-yamaha-motor-company-yamaha-corporation-logo-motorcycle-yamaha-emblem-company-trademark-thumbnail-removebg-preview.png"></a>
+            </div>
+            
+        </div>
+        <button class="carrossel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carrossel-control next" onclick="moveSlide(1)">&#10095;</button>
+            
     </div>
 
 
@@ -51,4 +61,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

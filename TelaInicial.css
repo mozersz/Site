@@ -117,3 +117,54 @@ button:hover {
     height: auto;
     margin-top: 10px;
 }
+.carrossel {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20vh;
+    border-radius: 10px;
+    border: black;
+}
+
+.carrossel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    background: #ddd;
+    padding: 20px;
+}
+
+.carrossel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+#home{
+    position: absolute;
+    top: 35vh;
+    display: flex;
+    right: 66vh;
+}
