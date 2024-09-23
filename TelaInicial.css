@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+
+}
 body {
     margin: 0;
     padding: 0;
@@ -164,7 +168,6 @@ button:hover {
 }
 #home{
     position: absolute;
-    top: 35vh;
     display: flex;
     right: 66vh;
 }
