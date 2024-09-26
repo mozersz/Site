@@ -7,9 +7,9 @@ body {
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
-    margin: 0;
+    margin-top: 1%;
 }
 .carrossel {
     width: 80%; /* Largura ajustável */
@@ -17,6 +17,8 @@ body {
     border: 2px solid #333;
     border-radius: 10px;
     background-color: #fff;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .texto {
     display: flex;
