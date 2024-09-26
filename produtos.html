@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,56 +8,29 @@
     <link rel="stylesheet" href="produtos.css">
     <title>Produtos</title>
 </head>
+
 <body>
     <div class="carrossel">
         <div class="texto" id="texto">
-            <div class="item">marca1</div>
-            <div class="item">marca2</div>
-            <div class="item">marca3</div>
-            <div class="item">marca4</div>
-            <div class="item">marca5</div>
-            <div class="item">marca6</div>
-            <div class="item">marca7</div>
-            <div class="item">marca8</div>
-            <div class="item">marca9</div>
-            <div class="item">marca10</div>
-            <div class="item">marca11</div>
-            <div class="item">marca12</div>
-            <div class="item">marca13</div>
-            <div class="item">marca14</div>
+            <div class="item" onclick="m1">marca1</div>
+            <div class="item" onclick="m2">marca2</div>
+            <div class="item" onclick="m3">marca3</div>
+            <div class="item" onclick="m4">marca4</div>
+            <div class="item" onclick="m5">marca5</div>
+            <div class="item" onclick="m6">marca6</div>
+            <div class="item" onclick="m7">marca7</div>
+            <div class="item" onclick="m8">marca8</div>
+            <div class="item" onclick="m9">marca9</div>
+            <div class="item" onclick="m10">marca10</div>
+            <div class="item" onclick="m11">marca11</div>
+            <div class="item" onclick="m12">marca12</div>
+            <div class="item" onclick="m13">marca13</div>
+            <div class="item" onclick="m14">marca14</div>
         </div>
     </div>
-    <button class="botao" onclick="anterior()"></button>
-    <button class="botao" onclick="proximo()"></button>
+    <button class="botao" onclick="anterior()">Anterior</button>
+    <button class="botao" onclick="proximo()">Proximo</button>
 </body>
+
 </html>
-<script>
-    let teucuzin = 0;
-
-    function atualizar(){
-        const texto = document.getElementById("texto");
-        const item = document.querySelectorAll(".item");
-        const totalitems = items.lenght;
-
-        const visivel = 5;
-        const max = totalitems - visivel;
-
-        if(teucuzin > max) {
-            teucuzin = max;
-        } else if(teucuzin < 0){
-            teucuzin = 0;
-        }
-
-        texto.style.transform = `translateX(${-index * 200}px)`;
-
-    }
-
-    function proximo(){
-        teucuzin++;
-        atualizar();
-    }
-    function anterior(){
-        teucuzin--;
-        atualizar();
-    }
-</script>
+<script src="/produtos.js"></script>
