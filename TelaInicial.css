@@ -171,3 +171,9 @@ button:hover {
     display: flex;
     right: 66vh;
 }
+.tamain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

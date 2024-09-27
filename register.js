@@ -3,16 +3,14 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
+    const confirmpassword = document.getElementById('confirm-password').value;
 
-    const senha = 123;
-    const usuario = Joab;
     // Aqui você pode adicionar a lógica para verificar o usuário e a password
     // Por enquanto, faremos uma verificação simples para fins de demonstração
 
-    if (password === confirm-password) {
-        alert('Login bem-sucedido');
-        // Redirecionar para outra página ou fazer algo mais
+    if (password === confirmpassword) {
+        window.location.href = "TelaInicial.html";
     } else {
-        document.getElementById('error-message').textContent = 'senha password incorretos';
+        document.getElementById('error-message').textContent = 'As senha não coincidem';
     }
 });
