@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: default;
 }
 
 body {
@@ -71,4 +72,23 @@ button:hover {
 #error-message {
     color: red;
     margin-top: 10px;
+}
+.links{
+    font-size: 16px;
+    text-transform: none;
+    text-decoration: none;
+}
+#l1{
+    color: black;
+}
+#l1:hover{
+    color: orangered;
+    cursor: pointer;
+}
+#l2{
+    color: black;
+}
+#l2:hover{
+    color: orangered;
+    cursor: pointer;
 }
