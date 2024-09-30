@@ -187,12 +187,29 @@ body {
     width: 1rem;
   }
   .produtos{
-    position: absolute;
-    left: 1%;
-    top: 13%;
+    display: inline-flex;
   }
   .item-list{
 
   }
-  
-  
+  .cardbut{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+  }
+  #preto{
+    background-color: black;
+  }
+  #branco{
+    background-color: white;
+  }
+  #azul{
+    background-color: blue;
+  }
+  #vermelho{
+    background-color: red;
+  }
+  #prata{
+    background-color: silver;
+  }
