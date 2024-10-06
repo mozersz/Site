@@ -13,7 +13,7 @@ body {
   margin-top: 1%;
 }
 .carrossel {
-    width: 80%; /* Largura ajustável */
+    width: 80%;
     overflow: hidden;
     border: 2px solid #333;
     border-radius: 10px;
@@ -26,14 +26,14 @@ body {
     transition: transform 0.5s ease;
 }
 .item {
-    min-width: 200px; /* Largura fixa para cada item */
+    min-width: 200px; 
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
-    border-right: 1px solid #ddd; /* Separador entre os itens */
+    border-right: 1px solid #ddd; 
 }
 .item:last-child {
-    border-right: none; /* Remove o separador do último item */
+    border-right: none; 
 }
 .botao {
     background-color: #007BFF;
