@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    
 }
 body {
   font-family: Arial, sans-serif; 
@@ -138,4 +137,112 @@ body {
   height: 100%;
   display: grid;
   place-items: center;
+}
+#h1{
+  background-image: url(/img/motos\ honda/mt1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#h2{
+  background-image: url(/img/motos\ honda/mt2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#h3{
+  background-image: url(/img/motos\ honda/mt3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#h4{
+  background-image: url(/img/motos\ honda/mt4.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#h5{
+  background-image: url(/img/motos\ honda/mt5.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#h6{
+  background-image: url(/img/motos\ honda/mt6.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#h7{
+  background-image: url(/img/motos\ honda/mt7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#h8{
+  background-image: url(/img/motos\ honda/mt8.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#h9{
+  background-image: url(/img/motos\ honda/mt9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#g1{
+  background-image: url(/img/motos\ yamaha/mt1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#g2{
+  background-image: url(/img/motos\ yamaha/mt1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#g3{
+  background-image: url(/img/motos\ yamaha/mt2.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#g4{
+  background-image: url(/img/motos\ yamaha/mt3.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#g5{
+  background-image: url(/img/motos\ yamaha/mt4.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#g6{
+  background-image: url(/img/motos\ yamaha/mt5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#g7{
+  background-image: url(/img/motos\ yamaha/mt6.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#g8{
+  background-image: url(/img/motos\ yamaha/mt7.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
+}
+#g9{
+  background-image: url(/img/motos\ yamaha/mt8.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto 150px;
 }

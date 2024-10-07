@@ -3,13 +3,86 @@ let troca = 1;
 
 const div = document.getElementById('ocult1');
 const div1 = document.getElementById('ocult2');
+const div2 = document.getElementById('ocult3');
+const div3 = document.getElementById('ocult4');
+const div4 = document.getElementById('ocult5');
+const div5 = document.getElementById('ocult6');
+const div6 = document.getElementById('ocult7');
+const div7 = document.getElementById('ocult8');
+
 function atualizarDivs() {
     if (troca === 1) {
         div.style.display = 'flex';
         div1.style.display = 'none';
+        div2.style.display = 'none';
+        div3.style.display = 'none';
+        div4.style.display = 'none';
+        div5.style.display = 'none';
+        div6.style.display = 'none';
+        div7.style.display = 'none';
     } else if (troca === 2) {
         div.style.display = 'none';
         div1.style.display = 'flex';
+        div2.style.display = 'none';
+        div3.style.display = 'none';
+        div4.style.display = 'none';
+        div5.style.display = 'none';
+        div6.style.display = 'none';
+        div7.style.display = 'none';
+    } else if (troca === 3) {
+        div.style.display = 'none';
+        div1.style.display = 'none';
+        div2.style.display = 'flex';
+        div3.style.display = 'none';
+        div4.style.display = 'none';
+        div5.style.display = 'none';
+        div6.style.display = 'none';
+        div7.style.display = 'none';
+    } else if (troca === 4) {
+        div.style.display = 'none';
+        div1.style.display = 'none';
+        div2.style.display = 'none';
+        div3.style.display = 'flex';
+        div4.style.display = 'none';
+        div5.style.display = 'none';
+        div6.style.display = 'none';
+        div7.style.display = 'none';
+    } else if (troca === 5) {
+        div.style.display = 'none';
+        div1.style.display = 'none';
+        div2.style.display = 'none';
+        div3.style.display = 'none';
+        div4.style.display = 'flex';
+        div5.style.display = 'none';
+        div6.style.display = 'none';
+        div7.style.display = 'none';
+    } else if (troca === 6) {
+        div.style.display = 'none';
+        div1.style.display = 'none';
+        div2.style.display = 'none';
+        div3.style.display = 'none';
+        div4.style.display = 'none';
+        div5.style.display = 'flex';
+        div6.style.display = 'none';
+        div7.style.display = 'none';
+    } else if (troca === 7) {
+        div.style.display = 'none';
+        div1.style.display = 'none';
+        div2.style.display = 'none';
+        div3.style.display = 'none';
+        div4.style.display = 'none';
+        div5.style.display = 'none';
+        div6.style.display = 'flex';
+        div7.style.display = 'none';
+    } else if (troca === 8) {
+        div.style.display = 'none';
+        div1.style.display = 'none';
+        div2.style.display = 'none';
+        div3.style.display = 'none';
+        div4.style.display = 'none';
+        div5.style.display = 'none';
+        div6.style.display = 'none';
+        div7.style.display = 'flex';
     }
 }
 
@@ -37,7 +110,7 @@ function proximo() {
     teucuzin++;
     atualizar();
     troca++;
-    if (troca > 2) troca = 2;
+    if (troca > 8) troca = 8;
     atualizarDivs();
 }
 
