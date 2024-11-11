@@ -69,3 +69,16 @@ body {
     height: auto;
     margin-top: 10px;
 }
+
+#carrinho{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    position: fixed;
+    right: 40px;
+    top: 10px;
+    border: 2px solid white ;
+    border-radius: 7px;
+    background-color: gray;
+    padding: 2px;
+}
