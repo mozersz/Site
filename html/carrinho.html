@@ -12,12 +12,34 @@
         <div class="container">
             <a href="#" class="logo"><img id="LOGODESGRACADA" src="/img/M_(1)-transformed.png" alt=""></a>
             <ul class="nav-links">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#models">Modelos</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="/html/TelaInicial.html">Início</a></li>
+                <li><a href="/html/produtos.html">Produtos</a></li>
+                <li><a href="/html/planos.html">Planos</a></li>
+                <li><a href="/html/agradecimento.html">Agradecimento</a></li>
             </ul>
+            <a id="nocar" href="/html/carrinho.html"><img id="carrinho" src="/img/carrim.png"></a>
         </div>
     </nav>
+
+    <h1>
+        Carrinho de Compras
+    </h1>
+    <br><br>
+    <div class="prod">
+    <div class="card" onclick="redirect()">
+        <div class="image" id="h8"><span class="text"></span></div>
+        <span class="title">Twister</span>
+        <span class="price">$22370</span>
+      </div>
+      <br><br><br><br><br><br><br><br>
+      <a id="comp">$22370</a>
+      <a href="pagamento.html" id="comp1">Comprar</a>
+    </div>
+
+    <script>
+        function redirect() {
+            window.location.href = 'http://127.0.0.1:5500/html/twister.html'; // Substitua pela URL desejada
+        }
+    </script>
 </body>
 </html>

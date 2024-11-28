@@ -1,0 +1,22 @@
+.imgdiv{
+    border:solid 1px white;
+
+}
+
+h1{
+    color: greenyellow;
+
+}
+a{
+    text-decoration: none;
+}
+#carrin{
+    background-color: green;
+    padding: 20px;
+    margin-left: 50vh;
+    border-radius: 5px;
+    color: black;
+}
+#carrin :hover{
+    color: white;
+}

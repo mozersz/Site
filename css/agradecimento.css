@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    color: greenyellow;
+    text-align: center;
+}
+h2, h3{
+    margin-top: 20vh;
+    text-align: center;
+    color: lightgreen;
+}
+h3{
+    font-size: 15vh;
+}

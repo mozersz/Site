@@ -7,9 +7,8 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     // Aqui você pode adicionar a lógica para verificar o usuário e a senha
     // Por enquanto, faremos uma verificação simples para fins de demonstração
 
-    if (username === 'usuario' && password === 'senha') {
-        alert('Login bem-sucedido');
-        // Redirecionar para outra página ou fazer algo mais
+    if (username === 'joab' && password === '123') {
+        window.location.href = 'http://127.0.0.1:5500/html/TelaInicial.html';
     } else {
         document.getElementById('error-message').textContent = 'Usuário ou senha incorretos';
     }

@@ -1,11 +1,12 @@
 *{
     box-sizing: border-box;
+    background-color: black;
 }
 body {
   font-family: Arial, sans-serif; 
 }
 .body{
-  background-color: #f4f4f4;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -16,13 +17,15 @@ body {
     overflow: hidden;
     border: 2px solid #333;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     justify-content: flex-start;
     align-items: flex-start;
+    color: white;
 }
 .texto {
     display: flex;
     transition: transform 0.5s ease;
+    color: white;
 }
 .item {
     min-width: 200px; 
@@ -35,22 +38,24 @@ body {
     border-right: none; 
 }
 .botao {
-    background-color: #007BFF;
-    color: white;
+    background-color: #636363;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 15px 25px;
     cursor: pointer;
     border-radius: 5px;
+    color: white;
 }
 .botao:hover {
-    background-color: #0056b3;
+    background-color: lightgreen;
 }
 .produtos{
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     display: flex;
     padding: 10px 10px;
     margin: 10px;
     gap: 20px;
+    color: white;
 }
 #right{
   position: absolute;
@@ -75,25 +80,8 @@ body {
   background: #fff;
   padding: 0.5em;
   padding-bottom: 3.4em;
+  color: white;
 }
-
-.card::after {
-  content: "Add to Cart";
-  padding-top: 1.25em;
-  padding-left: 1.25em;
-  position: absolute;
-  left: 0;
-  bottom: -60px;
-  background: #00AC7C;
-  color: #fff;
-  height: 2.5em;
-  width: 90%;
-  transition: all 80ms;
-  font-weight: 600;
-  text-transform: uppercase;
-  opacity: 0;
-}
-
 .card .title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9em;
@@ -101,7 +89,8 @@ body {
   left: 0.625em;
   bottom: 1.875em;
   font-weight: 400;
-  color: #000;
+  background-color: white;
+  color: black;
 }
 
 .card .price {
@@ -110,23 +99,9 @@ body {
   position: absolute;
   left: 0.625em;
   bottom: 0.625em;
-  color: #000;
+  color: black;
+  background-color: white;
 }
-
-.card:hover::after {
-  bottom: 0;
-  opacity: 1;
-}
-
-.card:active {
-  transform: scale(0.98);
-}
-
-.card:active::after {
-  content: "Added !";
-  height: 3.125em;
-}
-
 .text {
   max-width: 55px;
 }
