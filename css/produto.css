@@ -1,6 +1,10 @@
 .imgdiv{
     border:solid 1px white;
-
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
 }
 
 h1{
